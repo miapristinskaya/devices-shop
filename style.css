@@ -1,8 +1,21 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+section {
+  height: 800px;
+}
+
+/* #region header */
 .header {
   display: flex;
   flex-direction: column;
@@ -28,7 +41,9 @@ h1 {
   letter-spacing: -1.5px;
   color: #292929;
 }
+/* #endregion */
 
+/* #region menu */
 .menu {
   padding: 64px 120px;
   box-sizing: border-box;
@@ -50,9 +65,13 @@ h1 {
   line-height: 22px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #292929;
 }
 
 .menu__list_item {
   margin-bottom: 32px;
 }
+
+.menu__list_link {
+  color: #292929;
+}
+/* #endregion */
